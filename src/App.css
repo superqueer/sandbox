@@ -1,0 +1,62 @@
+.appwrapper {
+  margin: 0 auto;
+  display: grid;
+
+  grid-template-areas: 
+  "h h"
+  "n c";
+  
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr 10fr;
+  padding: 10px;
+  
+
+}
+
+.header .logo {
+ 
+  height: 80%;
+  margin-left: 10px;
+ 
+}
+
+.header {
+  grid-area: h;
+  background-color: silver;
+  margin-bottom: 5px;
+}
+
+.nav {
+  grid-area: n;
+  background-color: silver;
+  margin-right: 5px;
+  padding-top: 10px;
+
+}
+
+.content {
+  grid-area: c;
+  background-color: skyblue;
+}
+
+.content img {
+  width: 100%;
+  /* height: 150px; */
+
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav a {
+  line-height:25px;
+  padding-left: 10px;
+  /* border-bottom: 1px solid gray; */
+}
+
+.profile_photo {
+  width: 150px;
+}
