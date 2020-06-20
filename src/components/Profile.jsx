@@ -1,16 +1,19 @@
 import React from 'react';
+import style from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <div className="content">
+        <div className={style.content}>
             <div>
                 <img src="https://images.wallpaperscraft.com/image/sea_beach_sand_90803_2560x1080.jpg"></img>
             </div>
 
-            <div className="profile_photo">
+            <div className={style.profile_photo}>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg" />
             </div>
-            <div className="">
+            <div className={style.bio}>
+                <div className="profile_name">John Connor</div>
+                
                 ava+description
             </div>
             <div>
@@ -18,11 +21,11 @@ const Profile = () => {
                 <div>
                     New postor
                 </div>
-                <div>
-                    <div>
+                <div className={style.posts}>
+                    <div className={style.item}>
                         Post1
                     </div>
-                    <div>
+                    <div className={style.item}>
                         Podt2
                     </div>
                 </div>

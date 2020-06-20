@@ -1,0 +1,36 @@
+
+.nav {
+  grid-area: n;
+  background-color: silver;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+
+.item {
+  text-decoration: none;
+  line-height: 30px;
+  padding-left: 10px;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* text-shadow: 0 0 5px 2px #000; */
+}
+
+.item a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  /* text-shadow: 0 0 5px 2px #000; */
+}
+
+.item:hover {
+  background-color: grey;
+  font-size: 18px;
+  box-shadow: 0 0 3PX 1PX RGBA(0,0,0,0.5);
+
+}
+
+.item:active {
+  background-color: rgb(61, 61, 61);
+}
+
