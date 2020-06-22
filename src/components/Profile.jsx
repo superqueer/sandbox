@@ -8,12 +8,12 @@ const Profile = () => {
                 <img src="https://images.wallpaperscraft.com/image/sea_beach_sand_90803_2560x1080.jpg"></img>
             </div>
 
-            <div className={style.profile_photo}>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg" />
-            </div>
-            <div className={style.bio}>
-                <div className="profile_name">John Connor</div>
-                
+            <div className={style.profile_bio}>
+                <div className={style.profile_photo}>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg" />
+                </div>
+                <div className={style.profile_name}>John Connor</div>
+
                 ava+description
             </div>
             <div>

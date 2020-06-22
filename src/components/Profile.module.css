@@ -1,28 +1,39 @@
 .content {
   grid-area: c;
   /* background-color: skyblue; */
+
+  display: grid;
+  grid-template-areas: 
+  "p1 p1" 
+  "p2 p3";
+
+  grid-template-rows: 1fr 100% ;
+  grid-template-columns: 100% 100%;
+
+
+  
 }
 
 .content img {
+  grid-area: p1;
   width: 100%;
   max-height: 200PX;
   /* height: 150px; */
 
 }
 .profile_photo {
+  grid-area: p2;
   width: 150px;
 }
 
 .profile_photo img {
   border-radius: 5px;
+  display: inline;
 }
 
-.bio {
-  display: grid;
-grid-template-areas: name;  
-
-grid-template-rows: name;
-border: 1px solid #000;
+.profile_bio {
+  grid-area: p3;
+  
 }
 
 .profile_name {
