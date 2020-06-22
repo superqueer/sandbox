@@ -2,7 +2,7 @@
 .nav {
   grid-area: n;
   background-color: silver;
-  margin-right: 5px;
+  /* margin-right: 5px; */
   padding-top: 10px;
 }
 
