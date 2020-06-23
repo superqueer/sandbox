@@ -7,12 +7,15 @@ import Profile from './components/Profile/Profile';
 
 
 
+
+
 const App = () => {
   return (
     <div className="appwrapper">
       <Header />
       <SideBar />
       <Profile />
+     
     </div>
   );
 }

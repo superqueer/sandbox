@@ -1,0 +1,11 @@
+.item {
+    padding: 10px;
+    grid-area: post_area;
+    color: red;
+}
+
+.item img {
+    width: 50px;
+    border-radius: 5px;
+}
+

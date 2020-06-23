@@ -22,9 +22,9 @@
 
   display: grid;
 
-  grid-template-rows: 152px 1fr;
+  grid-template-rows: 152px 1fr 1fr;
   grid-template-columns: 130px 1fr;
-  gap: 10px 10px;
+  gap: 10px 20px;
   grid-template-areas: 
   "profile_photo profile_info"
   "post_area post_area";
@@ -34,11 +34,11 @@
 .img img {
   width: 100%;
   height: 190px;
-  /* border-radius: 2px; */
 }
 
 .profile_photo {
   /* border: 1px solid #000; */
+  text-align: center;
 }
 
 .profile_photo img {
@@ -51,8 +51,5 @@
   font-weight: 700;
 }
 
-.post_area {
-  grid-area: post_area;
-  border: 1px solid #000;
-}
+
 
