@@ -1,24 +1,5 @@
-.grid_container {
-  /* margin: 2px; */
-  display: grid;
-
-  
-  grid-template-rows: 195px 1fr;
-  grid-template-columns: 1fr 1fr;
-  /* gap: 5px 10px; */
-
-  grid-template-areas: 
-  "img img"
-  "profile profile"
-  ;
-}
-
-.img {
-  grid-area: img;
-}
-
 .profile {
-  grid-area: profile;
+  /* grid-area: profile; */
 
   display: grid;
 
@@ -50,6 +31,7 @@
   font-size: 1.5em;
   font-weight: 700;
 }
+
 
 
 
